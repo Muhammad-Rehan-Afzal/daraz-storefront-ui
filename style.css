@@ -1,0 +1,815 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(232, 236, 236);
+}
+/*nav-bar*/
+.nav-bar1{
+    height: 25px;
+    background-color: orangered;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-bar2{
+    height: 93px;
+    background-color: orangered;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/*logo*/
+#logo{
+    background-image: url(logo.png);
+    background-size: cover;
+    height: 40px;
+    width: 127px;
+}
+#search-panel{
+    height: 45px;
+    width: 643px;
+    background-color: blue;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+}
+/* #search-input{
+   height: 40px;
+   width: 590px;
+   font-size: 1.5rem;
+} */
+#icon{
+    height: 45px;
+    width: 45px;
+    background-color: #ffe1d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: orangered;
+}
+#cart{
+    height: 30px;
+    width: 30px;
+    font-size: 1.3rem;
+    color: white;
+}
+/* main-section */
+.main-section{
+    background-image: url(main.avif);
+    background-size: cover;
+    width: 1200px;
+    height: 344px;
+    margin-left: 80px;
+}
+/* shop section */
+.flash-sale{
+   margin-left: 80px; 
+   padding-top: 24px;
+   font-size: 1.5rem;
+}
+.title-1{
+    color: #424242;
+}
+#sale-now{
+    height: 61px;
+    width: 1200px;
+    background-color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f57224;
+}
+#product{
+    height: 37px;
+    width: 167px;
+    border: 0.6px solid #f57224;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* shop-1 */
+.shop-1{
+    height: 290px;
+    width: 1200px;
+    background-color: white;
+    margin-left: 80px;
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.product-1{
+    height: 290px;
+    width: 188px;
+}
+#img1-1{
+    height: 188px;
+    width: 188px;
+    background-image: url(1.1.avif);
+    background-size: cover;
+}
+.product-2{
+    height: 290px;
+    width: 188px;
+}
+#img1-2{
+    height: 188px;
+    width: 188px;
+    background-image: url(1.2.avif);
+    background-size: cover;
+}
+.product-3{
+    height: 290px;
+    width: 188px;
+}
+#img1-3{
+    height: 188px;
+    width: 188px;
+    background-image: url(1.3.avif);
+    background-size: cover;
+}
+.product-4{
+    height: 290px;
+    width: 188px;
+}
+#img1-4{
+    height: 188px;
+    width: 188px;
+    background-image: url(1.4.avif);
+    background-size: cover;
+}
+.product-5{
+    height: 290px;
+    width: 188px;
+}
+#img1-5{
+    height: 188px;
+    width: 188px;
+    background-image: url(1.5.avif);
+    background-size: cover;
+}
+.product-6{
+    height: 290px;
+    width: 188px;
+}
+#img1-6{
+    height: 188px;
+    width: 188px;
+    background-image: url(1.6.avif);
+    background-size: cover;
+}
+#price{
+    color: #f57224;
+    margin-top: 10px;
+}
+#full-price{
+    text-decoration: line-through;
+    color: #9e9e9e;
+    display: flex;
+}         
+/* shop-2 */
+.title-2{
+    color: #424242;
+    font-size: 1.5rem;
+    margin-left: 80px;
+    padding-top: 20px;
+}
+.shop-2{
+    height: 300px;
+    width: 1200px;
+    background-color: white;
+    margin-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.shop2p1{
+    height: 150px;
+    width: 150px;
+}
+#img2-1{
+    height: 80px;
+    width: 80px;
+    background-image: url(2.1.avif);
+    background-size: cover;
+}
+.shop2p2{
+    height: 150px;
+    width: 150px;
+}
+#img2-2{
+    height: 80px;
+    width: 80px;
+    background-image: url(2.2.avif);
+    background-size: cover;
+}
+.shop2p3{
+    height: 150px;
+    width: 150px;
+}
+#img2-3{
+    height: 80px;
+    width: 80px;
+    background-image: url(2.3.avif);
+    background-size: cover;
+}
+.shop2p4{
+    height: 150px;
+    width: 150px;
+}
+#img2-4{
+    height: 80px;
+    width: 80px;
+    background-image: url(2.4.avif);
+    background-size: cover;
+}
+.shop2p5{
+    height: 150px;
+    width: 150px;
+}
+#img2-5{
+    height: 80px;
+    width: 80px;
+    background-image: url(2.5.avif);
+    background-size: cover;
+}
+.shop2p6{
+    height: 150px;
+    width: 150px;
+}
+#img2-6{
+    height: 80px;
+    width: 80px;
+    background-image: url(2.6.avif);
+    background-size: cover;
+}
+.shop2p7{
+    height: 150px;
+    width: 150px;
+}
+#img2-7{
+    height: 80px;
+    width: 80px;
+    background-image: url(2.7.avif);
+    background-size: cover;
+}
+.shop2p8{
+    height: 150px;
+    width: 150px;
+}
+#img2-8{
+    height: 80px;
+    width: 80px;
+    background-image: url(2.8.avif);
+    background-size: cover;
+}
+.shop2p9{
+    height: 150px;
+    width: 150px;
+}
+#img2-9{
+    height: 80px;
+    width: 80px;
+    background-image: url(2.9.avif);
+    background-size: cover;
+}
+.shop2p10{
+    height: 150px;
+    width: 150px;
+}
+#img2-10{
+    height: 80px;
+    width: 80px;
+    background-image: url(2.10.avif);
+    background-size: cover;
+}
+.shop2p11{
+    height: 150px;
+    width: 150px;
+}
+#img2-11{
+    height: 80px;
+    width: 80px;
+    background-image: url(2.11.avif);
+    background-size: cover;
+}
+.shop2p12{
+    height: 150px;
+    width: 150px;
+}
+#img2-12{
+    height: 80px;
+    width: 80px;
+    background-image: url(2.12.avif);
+    background-size: cover;
+}
+.shop2p13{
+    height: 150px;
+    width: 150px;
+}
+#img2-13{
+    height: 80px;
+    width: 80px;
+    background-image: url(2.13.avif);
+    background-size: cover;
+}
+.shop2p14{
+    height: 150px;
+    width: 150px;
+}
+#img2-14{
+    height: 80px;
+    width: 80px;
+    background-image: url(2.14.avif);
+    background-size: cover;
+}
+.shop2p15{
+    height: 150px;
+    width: 150px;
+}
+#img2-15{
+    height: 80px;
+    width: 80px;
+    background-image: url(2.15.avif);
+    background-size: cover;
+}
+.shop2p16{
+    height: 150px;
+    width: 150px;
+}
+#img2-16{
+    height: 80px;
+    width: 80px;
+    background-image: url(2.16.avif);
+    background-size: cover;
+}
+/* Shop-3 */
+.title-3{
+    color: #424242;
+    font-size: 1.5rem;
+    margin-left: 80px;
+    padding-top: 20px;
+}
+.shop-3{
+    height: 290px;
+    width: 1200px;
+    background-color: white;
+    margin-left: 80px;
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-evenly
+}
+#star{
+    font-size: 0.7rem;
+    color: #f57224;
+    display: flex;
+    margin-top: 10px;
+}
+#price{
+    display: flex;
+}
+#discount{
+    color: #9e9e9e;
+    display: flex;
+}
+#img3-1{
+    height: 189px;
+    width: 189px;
+    background-image: url(3.1.avif);
+    background-size: cover;
+}
+#img3-2{
+    height: 189px;
+    width: 189px;
+    background-image: url(3.2.avif);
+    background-size: cover;
+}
+#img3-3{
+    height: 189px;
+    width: 189px;
+    background-image: url(3,3.avif);
+    background-size: cover;
+}
+#img3-4{
+    height: 189px;
+    width: 189px;
+    background-image: url(3.4.avif);
+    background-size: cover;
+}
+#img3-5{
+    height: 189px;
+    width: 189px;
+    background-image: url(3.5.avif);
+    background-size: cover;
+}
+#img3-6{
+    height: 189px;
+    width: 189px;
+    background-image: url(3.6.avif);
+    background-size: cover;
+}
+/* Just For You line 2 */
+.line-2{
+    height: 300px;
+    width: 1200px;
+    background-color: white;
+    margin-left: 80px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#imgL2-1{
+    height: 189px;
+    width: 189px;
+    background-image: url(L2.1.avif);
+    background-size: cover;
+}
+#imgL2-2{
+    height: 189px;
+    width: 189px;
+    background-image: url(L2.2.avif);
+    background-size: cover;
+}
+#imgL2-3{
+    height: 189px;
+    width: 189px;
+    background-image: url(L2.3.avif);
+    background-size: cover;
+}
+#imgL2-4{
+    height: 189px;
+    width: 189px;
+    background-image: url(L2.4.avif);
+    background-size: cover;
+}
+#imgL2-5{
+    height: 189px;
+    width: 189px;
+    background-image: url(L2.5.avif);
+    background-size: cover;
+}
+#imgL2-6{
+    height: 189px;
+    width: 189px;
+    background-image: url(L2.6.avif);
+    background-size: cover;
+}
+/* Line 3 */
+.line-3{
+    height: 300px;
+    width: 1200px;
+    background-color: white;
+    margin-left: 80px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#imgL3-1{
+    height: 189px;
+    width: 189px;
+    background-image: url(L3.1.avif);
+    background-size: cover;
+}
+#imgL3-2{
+    height: 189px;
+    width: 189px;
+    background-image: url(L3.2.avif);
+    background-size: cover;
+}
+#imgL3-3{
+    height: 189px;
+    width: 189px;
+    background-image: url(L3.3.avif);
+    background-size: cover;
+}
+#imgL3-4{
+    height: 189px;
+    width: 189px;
+    background-image: url(L3.4.avif);
+    background-size: cover;
+}
+#imgL3-5{
+    height: 189px;
+    width: 189px;
+    background-image: url(L3.5.avif);
+    background-size: cover;
+}
+#imgL3-6{
+    height: 189px;
+    width: 189px;
+    background-image: url(L3.6.avif);
+    background-size: cover;
+}
+/* Line 4 */
+.line-4{
+    height: 300px;
+    width: 1200px;
+    background-color: white;
+    margin-left: 80px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#imgL4-1{
+    height: 189px;
+    width: 189px;
+    background-image: url(L4.1.avif);
+    background-size: cover;
+}
+#imgL4-2{
+    height: 189px;
+    width: 189px;
+    background-image: url(L4.2.avif);
+    background-size: cover;
+}
+#imgL4-3{
+    height: 189px;
+    width: 189px;
+    background-image: url(L4.3.avif);
+    background-size: cover;
+}
+#imgL4-4{
+    height: 189px;
+    width: 189px;
+    background-image: url(L4.4.avif);
+    background-size: cover;
+}
+#imgL4-5{
+    height: 189px;
+    width: 189px;
+    background-image: url(L4.5.avif);
+    background-size: cover;
+}
+#imgL4-6{
+    height: 189px;
+    width: 189px;
+    background-image: url(L4.6.avif);
+    background-size: cover;
+}
+/* Line 5 */
+.line-5{
+    height: 300px;
+    width: 1200px;
+    background-color: white;
+    margin-left: 80px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#imgL5-1{
+    height: 189px;
+    width: 189px;
+    background-image: url(L5.1.avif);
+    background-size: cover;
+}
+#imgL5-2{
+    height: 189px;
+    width: 189px;
+    background-image: url(L5.2.avif);
+    background-size: cover;
+}
+#imgL5-3{
+    height: 189px;
+    width: 189px;
+    background-image: url(L5.3.avif);
+    background-size: cover;
+}
+#imgL5-4{
+    height: 189px;
+    width: 189px;
+    background-image: url(L5.4.avif);
+    background-size: cover;
+}
+#imgL5-5{
+    height: 189px;
+    width: 189px;
+    background-image: url(L5.5.avif);
+    background-size: cover;
+}
+#imgL5-6{
+    height: 189px;
+    width: 189px;
+    background-image: url(L5.6.avif);
+    background-size: cover;
+}
+/* Line 6 */
+.line-6{
+    height: 300px;
+    width: 1200px;
+    background-color: white;
+    margin-left: 80px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#imgL6-1{
+    height: 189px;
+    width: 189px;
+    background-image: url(L6.1.avif);
+    background-size: cover;
+}
+#imgL6-2{
+    height: 189px;
+    width: 189px;
+    background-image: url(L6.2.avif);
+    background-size: cover;
+}
+#imgL6-3{
+    height: 189px;
+    width: 189px;
+    background-image: url(L6.3.avif);
+    background-size: cover;
+}
+#imgL6-4{
+    height: 189px;
+    width: 189px;
+    background-image: url(L6.4.avif);
+    background-size: cover;
+}
+#imgL6-5{
+    height: 189px;
+    width: 189px;
+    background-image: url(L6.5.avif);
+    background-size: cover;
+}
+#imgL6-6{
+    height: 189px;
+    width: 189px;
+    background-image: url(L6.6.avif);
+    background-size: cover;
+}
+/* line 7 */
+.line-7{
+    height: 300px;
+    width: 1200px;
+    background-color: white;
+    margin-left: 80px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#imgL7-1{
+    height: 189px;
+    width: 189px;
+    background-image: url(L7.1.avif);
+    background-size: cover;
+}
+#imgL7-2{
+    height: 189px;
+    width: 189px;
+    background-image: url(L7.2.avif);
+    background-size: cover;
+}
+#imgL7-3{
+    height: 189px;
+    width: 189px;
+    background-image: url(L7.3.avif);
+    background-size: cover;
+}
+#imgL7-4{
+    height: 189px;
+    width: 189px;
+    background-image: url(L7.4.avif);
+    background-size: cover;
+}
+#imgL7-5{
+    height: 189px;
+    width: 189px;
+    background-image: url(L7.5.avif);
+    background-size: cover;
+}
+#imgL7-6{
+    height: 189px;
+    width: 189px;
+    background-image: url(L7.6.avif);
+    background-size: cover;
+}
+/* learn-more */
+.lode-more{
+    color: #1a9cbb;
+    text-align: center;
+    padding-top: 40px;
+}
+/* Foot Panel */
+.foot-panel1{
+    display: flex;
+}
+.foot-panel1 a{
+    display: flex;
+}
+#daraz-logo{
+    height: 42px;
+    width: 42px;
+    background-image: url(small\ daraz\ logo.png);
+    background-size: cover;
+}
+.small-logo{
+    display: flex;
+    margin-left: 150px;
+}
+.download-app{
+    height: 95px;
+    width: 290px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+#app-store{
+    height: 42px;
+    width: 126px;
+    background-image: url(app\ store.png);
+    background-size: cover;
+}
+#google-play{
+    height: 42px;
+    width: 126px;
+    background-image: url(google\ play.png);
+    background-size: cover;
+}
+#app-g{
+    height: 42px;
+    width: 126px;
+    background-image: url(app\ g.png);
+    background-size: cover;
+}
+/* foot-panel2 */
+.foot-panel2{
+    display: flex;
+    background-color: white;
+    height: 160px;
+    justify-content: space-evenly;
+}
+.img-pay{
+    height: 64px;
+    width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+#p-1{
+    height: 28px;
+    width: 46.33px;
+    background-image: url(p-1.png);
+    background-size: cover;
+}
+#p-2{
+    height: 28px;
+    width: 46.33px;
+    background-image: url(p-2.png);
+    background-size: cover;
+}
+#p-3{
+    height: 28px;
+    width: 46.33px;
+    background-image: url(p-3.png);
+    background-size: cover;
+}
+#p-4{
+    height: 28px;
+    width: 46.33px;
+    background-image: url(p-4.png);
+    background-size: cover;
+}
+#p-5{
+    height: 28px;
+    width: 48px;
+    background-image: url(p-5.png);
+    background-size: cover;
+}
+#p-6{
+    height: 28px;
+    width: 46.33px;
+    background-image: url(p-6.png);
+    background-size: cover;
+}
+#p-7{
+    height: 28px;
+    width: 46.33px;
+    background-image: url(p-7.png);
+    background-size: cover;
+}
+#p-8{
+    height: 28px;
+    width: 48px;
+    background-image: url(p-8.png);
+    background-size: cover;
+}
+#p-9{
+    height: 28px;
+    width: 48px;
+    background-image: url(p-9.png);
+    background-size: cover;
+}
+.Verified{
+    height: 101.2px;
+    width: 380.16px;
+
+}
+#verifed-img{
+    height: 41px;
+    width: 110px;
+    background-image: url(v-1.png);
+    background-size: cover;
+}
